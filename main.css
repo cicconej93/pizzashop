@@ -1,0 +1,33 @@
+.container {
+	width: 100%;
+	min-width: 320px;
+	height: 100%;
+	background-color: rgb(207, 241, 207);
+}
+.menu {
+	background-color: rgb(18, 114, 18);
+	color: white;
+	display: flex;
+	height: 100px;
+	width: 100%;
+	min-width: 320px;
+}
+
+.but {
+	flex: 1;
+	line-height: 100px;
+	height: 100%;
+	cursor: pointer;
+	text-align: center;
+	
+}
+
+.head {
+	display: flex;
+	width: 100%;
+}
+
+.head-items {
+	flex: 1;
+
+}
