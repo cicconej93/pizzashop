@@ -1,3 +1,21 @@
+@media only screen and (max-width: 505px) {
+	.head {
+		flex-direction: column;
+	}
+
+	.head-items {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 48px;
+	}
+	
+}
+
+body {
+	font-family: 'Oxygen', sans-serif;
+}
+
 .container {
 	width: 100%;
 	min-width: 320px;
@@ -5,7 +23,7 @@
 	background-color: rgb(207, 241, 207);
 }
 .menu {
-	background-color: rgb(18, 114, 18);
+	background-color: rgb(12, 101, 56);
 	color: white;
 	display: flex;
 	height: 100px;
@@ -25,9 +43,32 @@
 .head {
 	display: flex;
 	width: 100%;
+	min-height: 300px;
+	height:100%;
+	justify-content: center;
+
 }
 
 .head-items {
-	flex: 1;
+	
+	text-align: center;
+	align-self: center;
+	height: 48px;
+	width: 140px;
 
+}
+
+.head-but {
+	color: rgb(12, 101, 56);
+}
+
+.logo{
+	height: 100%;
+	width: 300px;
+	
+}
+
+.fa {
+	font-size: 18pt;
+	padding: 10px;
 }
