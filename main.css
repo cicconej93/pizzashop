@@ -96,7 +96,8 @@ body {
 .name {
 	font-family: 'Bungee Shade', cursive, sans-serif;
 	color: rgb(12, 101, 56);
-	font-size: 38pt;
+	font-size: 36pt;
+	
 	border: 5px solid rgb(12, 101, 56);
 	padding: 5px;
 	border-radius: 10px;
