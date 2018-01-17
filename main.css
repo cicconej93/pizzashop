@@ -9,6 +9,10 @@
 		justify-content: center;
 		min-width: 48px;
 	}
+
+	body {
+		font-size: 20px;
+	}
 	
 }
 
@@ -97,7 +101,7 @@ body {
 	font-family: 'Bungee Shade', cursive, sans-serif;
 	color: rgb(12, 101, 56);
 	font-size: 36pt;
-	
+
 	border: 5px solid rgb(12, 101, 56);
 	padding: 5px;
 	border-radius: 10px;
