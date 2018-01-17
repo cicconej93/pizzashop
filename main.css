@@ -1,4 +1,4 @@
-@media only screen and (max-width: 505px) {
+@media only screen and (max-width: 600px) {
 	.head {
 		flex-direction: column;
 	}
@@ -24,7 +24,7 @@ body {
 }
 .menu {
 	background-color: rgb(12, 101, 56);
-	color: white;
+	color: rgb(207, 241, 207);
 	display: flex;
 	height: 100px;
 	width: 100%;
@@ -53,13 +53,15 @@ body {
 	
 	text-align: center;
 	align-self: center;
-	height: 48px;
-	width: 140px;
+	
 
 }
 
 .head-but {
 	color: rgb(12, 101, 56);
+	height: 48px;
+	width: 140px;
+	cursor: pointer;
 }
 
 .logo{
@@ -69,6 +71,65 @@ body {
 }
 
 .fa {
-	font-size: 18pt;
+	font-size: 30pt;
 	padding: 10px;
+}
+
+.nameLogo{
+	height: 300px;
+	width: 300px;
+	position: relative;
+	text-align: center;
+
+}
+
+.fa-pie-chart{
+	font-size: 250px;
+	color: red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0.5;
+}
+
+.name {
+	font-family: 'Bungee Shade', cursive, sans-serif;
+	color: rgb(12, 101, 56);
+	font-size: 38pt;
+	border: 5px solid rgb(12, 101, 56);
+	padding: 5px;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.details {
+	display: flex;
+	justify-content: space-between;
+	color: rgb(12, 101, 56);
+
+}
+.num {
+	flex-grow: 1;
+	
+}
+.address {
+	flex-grow: 1;
+	text-align: right;
+	align-self: flex-end;
+	width: 150px;
+}
+
+section {
+	height: 100%;
+	width: 100%;
+}
+
+#map {
+	height: 400px;
+	width: 100%;
 }

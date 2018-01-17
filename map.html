@@ -16,36 +16,52 @@
 		<nav class="menu">
 			<div class="but" onclick="homeRedirect()"><i class="fa fa-home" aria-hidden="true" ></i></div>
 			<div class="but" onclick="aboutRedirect()">About</div>
-			<div class="but" onclick="menuRedirect()">Menu</div>
+			<div class="but" onclick="menuRediect()">Menu</div>
 		</nav>
 	
 	
 		<header class="head">
-			<div class="head-items head-but mapBut" onclick="mapRedirect();">
-				
-				Find Us<i class="fa fa-location-arrow" aria-hidden="true"></i>
-
-			</div>
+			
 			<!--<div class="head-items logo"><img src="assests/photo.png" alt="Ciccone's Pizza Logo"></div>-->
 			<div class ="head-items nameLogo">
 				<i class="fa fa-pie-chart" aria-hidden="true"></i>
 				<div class="head-items name">Ciccone's Pizza</div>
 			</div>
-			<div class="head-items head-but"><i class="fa fa-facebook-square" aria-hidden="true"></i></div>
 
 		</header>
-
-	
 		<section class="details">
-			<div class="num det-items">
-				<i class="fa fa-phone" aria-hidden="true"></i>(570)457-4100
+			<div class="num">
+				<p><i class="fa fa-phone" aria-hidden="true"></i>(570)457-4100</p>
 			</div>
 			<div class="address det-items">230 Oak St, Old Forge, PA 18518
 			</div>
+		</section>
+	
+		<section>
+			<div id="map">
+				 <script>
+      var map;
+      function initMap() {
+        var uluru = {lat: 41.3724, lng: -75.7368};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbtt9EOwyUinuWUCcdqI6GSlJri1SFngQ&callback=initMap"
+    async defer></script>
+
+			</div>
+		
 		</section>
 	</div>
 
 </body>
 <script type="text/javascript" src="script.js"></script>
-</html>
 
+</html>
