@@ -53,6 +53,11 @@ body {
 
 }
 
+#menu .head {
+	flex-wrap: wrap;
+
+}
+
 .head-items {
 	
 	text-align: center;
@@ -96,6 +101,7 @@ body {
 	transform: translate(-50%, -50%);
 	opacity: 0.5;
 }
+
 
 .name {
 	font-family: 'Bungee Shade', cursive, sans-serif;
