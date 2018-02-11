@@ -1,8 +1,3 @@
-//get DOM of map button
-//var mapBut = document.getElementsByClassName("mapBut");
-
-//mapBut.addEventListener("onClick", mapRedirect());
-
 
 
 
